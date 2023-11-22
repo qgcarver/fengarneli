@@ -5,10 +5,11 @@
 <script src="fengari-web.js" type="text/javascript"></script>
 
 <script type="application/lua">
-  print "hello world"
-</script>
+  local js = require "js"
+  local window = js.global
 
-<script>
-  const pane = document.getElementById("pane");
-  console.log(pane);
+  pane = window.document.getElementById("pane")
+  window.console.alert(pane)
+
+  print "hello world"
 </script>
