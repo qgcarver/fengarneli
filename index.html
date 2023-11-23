@@ -4,7 +4,7 @@
 
 <script src="fengari-web.js" type="text/javascript"></script>
 
-<script type="application/lua">
+<script type="application/lua" async>
   package.path = "./?.lua"
   local js = require "js"
 
@@ -27,7 +27,7 @@
     end
   }
 
-  package.preload.fennelview = assert(loadfile("fennelview.lua"))
+  -- package.preload.fennelview = assert(loadfile("fennelview.lua"))
   
   
   local fnl = require "fennel"
