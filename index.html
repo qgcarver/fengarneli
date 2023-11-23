@@ -6,10 +6,11 @@
 
 <script type="application/lua">
   local js = require "js"
-  local doc = js.global.window.document
+  local doc = js.global.document
 
   pane = doc:getElementById("pane")
   js.global:alert(pane)
+  print(pane)
 
   print "hello world"
 </script>
