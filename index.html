@@ -6,7 +6,7 @@
 
 <script type="application/lua">
   local js = require "js"
-  local doc = js.global.document
+  local doc = js.global.window.document
 
   pane = doc:getElementById("pane")
   js.global:alert(pane)
