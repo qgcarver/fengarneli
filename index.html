@@ -9,9 +9,12 @@
   local doc = js.global.document
 
   pane = doc:getElementById("pane")
-  js.global:alert(pane)
   js.global.console:log(pane)
   print(pane)
 
   print "hello world"
+
+  local fnl = require "fennel"
+  fnl.install()
+  print(fnl.dofile("wrap"))
 </script>
