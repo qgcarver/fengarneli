@@ -1,2 +1,2 @@
 (let [js (require :js)]
-  (js.global:alert (require :wrapp))))
+  (js.global:alert (require :wrapp)))
