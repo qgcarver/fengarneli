@@ -32,7 +32,8 @@
   
   local fnl = require "fennel"
   fnl.install()
-  print(fnl.dofile("wrap.fnl"))
+  print(require("wrap")
+  --fnl.dofile("wrap.fnl")
 
 
   local doc = js.global.document
