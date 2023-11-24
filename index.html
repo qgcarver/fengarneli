@@ -12,7 +12,7 @@
   _G.os.getenv = function() return nil end
 
   io={
-    open=function()
+    open=function(filename)
       return {
         read = function(_,all)
           assert(all=="*all","Can only read *all.")
