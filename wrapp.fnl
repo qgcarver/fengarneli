@@ -1,4 +1,3 @@
-(+ 54 767)
 
 
 (local doc js.global.document)
@@ -7,3 +6,5 @@
 (print pane)
 
 (print "hello world")
+
+(+ 54 767)
